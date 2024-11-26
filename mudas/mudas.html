@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudas do Horto Florestal Jacarezinho</title>
+    <style>
+        /* Paleta de cores */
+        :root {
+            --background-color: #eaf4e0; /* Verde claro */
+            --header-color: #4caf50;     /* Verde principal */
+            --text-color: #2e7d32;       /* Verde escuro */
+            --card-background: #f1f8e9;  /* Verde pastel */
+            --accent-color: #a5d6a7;     /* Verde suave */
+        }
+
+        /* Estilos gerais */
+        body {
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--header-color);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--header-color);
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .muda {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            background-color: var(--card-background);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .muda img {
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .muda-content {
+            padding: 15px;
+            flex: 1;
+        }
+
+        .muda-content h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: var(--header-color);
+        }
+
+        .muda-content p {
+            margin: 10px 0 0;
+            font-size: 1rem;
+            color: var(--text-color);
+        }
+
+        footer {
+            background-color: var(--header-color);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mudas do Horto Florestal</h1>
+        <p>Horto Florestal de Jacarezinho - Norte do Paraná</p>
+    </header>
+    <div class="container">
+        <h2 class="section-title">Espécies Disponíveis</h2>
+
+        <!-- Muda 1 -->
+        <div class="muda">
+            <img src="./img/ipe.jpg" alt="Ipê Amarelo">
+            <div class="muda-content">
+                <h3>Ipê Amarelo</h3>
+                <p>O Ipê Amarelo é uma árvore símbolo do Brasil, muito valorizada pela sua beleza e pela sua contribuição ambiental em reflorestamentos.</p>
+            </div>
+        </div>
+
+        <!-- Muda 2 -->
+        <div class="muda">
+            <img src="./img/jtb.jpg" alt="Jatobá">
+            <div class="muda-content">
+                <h3>Jatobá</h3>
+                <p>Árvore de grande porte, o Jatobá é conhecido por sua madeira resistente e seus frutos que são utilizados em diversas receitas regionais.</p>
+            </div>
+        </div>
+
+        <!-- Muda 3 -->
+        <div class="muda">
+            <img src="./img/pj.jpg" alt="Pau Jacaré">
+            <div class="muda-content">
+                <h3>Pau Jacaré</h3>
+                <p>O pau-jacaré é uma árvore nativa do Brasil, com ampla dispersão principalmente na Mata Atlântica.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Senac. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
