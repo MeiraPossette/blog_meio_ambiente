@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colaboradores do Projeto</title>
+    <style>
+        /* Estilo geral */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4caf50; /* Cor principal */
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .collaborators {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .collaborator {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .collaborator:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .collaborator img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .collaborator-info {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .collaborator-info h3 {
+            font-size: 2em;
+            color: #4CAF50;
+            margin: 0 0 10px;
+        }
+
+        .collaborator-info p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nossos Colaboradores</h1>
+        <p>Pessoas que fazem a diferença no projeto</p>
+    </header>
+
+    <div class="content">
+        <div class="collaborators">
+            <!-- Colaborador 1 -->
+            <div class="collaborator">
+                <img src="./img/vinicius.jpg" alt="Foto de Carolina Alves">
+                <div class="collaborator-info">
+                    <h3>Vínicius</h3>
+                    <p>Professor de Sociologia e Filosofia, apresentou junto com Hilário uma tese sobre o meio ambiente em uma palestra. A contribuição deles foi apresentar a proposta inicial de um projeto, oferecendo reflexões e críticas sobre a interação e as escolhas diárias da humanidade em relação ao meio ambiente.</p>
+                </div>
+            </div>
+
+            <!-- Colaborador 2 -->
+            <div class="collaborator">
+                <img src="./img/juscelino.jpg" alt="Foto de Thiago Martins">
+                <div class="collaborator-info">
+                    <h3>Juscelino</h3>
+                    <p>Professor de artes que contribuiu para a restauração e o desenvolvimento da arte do muro. A ideia partiu da coordenadora do Sesc, que propôs que os alunos participassem do projeto, ajudando na pintura. Assim, a cultura e a história da cidade de Jacarezinho foram trazidas para o Parque Ecológico.</p>
+                </div>
+            </div>
+
+            <!-- Colaborador 3 -->
+            <div class="collaborator">
+                <img src="./img/hilario.png" alt="Foto de Laura Costa">
+                <div class="collaborator-info">
+                    <h3>Hílario Junior</h3>
+                    <p>Professor de geografia e história, desenvolveu o projeto junto com o Vinícius, trazendo em tese na palestra o projeto do meio ambiente para que trabalhasse com a turma a preservação do Parque Ecológico, apresentando o trabalho dos profissionais do Horto Florestal, através de uma visita para base do projeto, além de promover uma ação de plantio na Feira do Conhecimento do Sesc/Senac no Parque Ecológico.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;  2024 Senac. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
