@@ -10,7 +10,7 @@
 
 
 .background{
-    background-image: url(../paginainicial/img/banner.jpg);
+    background-image: url("../paginainicial/img/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -135,7 +135,7 @@ section h1{
 .cta{
     height: 60vh;
     width: 100%;
-    background: url(../paginainicial/img/bannerdengue.png);
+    background: url("../paginainicial/img/bannerdengue.png");
     background-size: cover;
     background-position: center;
     display: flex;
