@@ -10,7 +10,7 @@
 
 
 .background{
-    background-image: url(../paginainicial/img/banner.jpg);
+    background-image: url("../paginainicial/img/banner2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
