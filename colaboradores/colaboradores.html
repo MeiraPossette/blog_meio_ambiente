@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colaboradores do Projeto</title>
+    <title>Mediadores do Projeto</title>
+    <link rel="stylesheet" href="../paginainicial/style.css">
     <style>
         /* Estilo geral */
         body {
@@ -13,22 +14,6 @@
             color: #333;
         }
 
-        header {
-            background-color: #4caf50; /* Cor principal */
-            color: white;
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-
-        header p {
-            font-size: 1.2em;
-            margin: 10px 0 0;
-        }
 
         .content {
             max-width: 1200px;
@@ -91,15 +76,39 @@
 </head>
 <body>
     <header>
-        <h1>Nossos Colaboradores</h1>
-        <p>Pessoas que fazem a diferença no projeto</p>
-    </header>
+        <div class="logo">
+            <h1>Blog Meio Ambiente</h1>
+        </div><!--logo-->
 
+        <div class="cabeçalho-link">
+            <li>
+                <a href="../index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="../entrevista/entrevista.html">Entrevista</a>
+            </li>
+            <li>
+                <a href="../ação/ação.html">Ações</a>
+            </li>
+            <li>
+                <a href="../sobre/sobre.html">Sobre</a>
+            </li>
+            <li>
+                <a href="../colaboradores/colaboradores.html">Mediadores</a>
+            </li>
+        </div><!--cabeçalho-link-->
+        <div class="icon"><span><ion-icon name="bag-outline"></ion-icon></span></div><!--icon-->
+        
+    </header>
+    <div id="cabecalho">
+        <h1>Nossos Mediadores</h1>
+        <p>Pessoas que fazem a diferença no projeto</p>
+    </div>
     <div class="content">
         <div class="collaborators">
             <!-- Colaborador 1 -->
             <div class="collaborator">
-                <img src="./img/vinicius.jpg" alt="Foto de Carolina Alves">
+                <img src="./img/vinicius.jpg" alt="">
                 <div class="collaborator-info">
                     <h3>Vínicius</h3>
                     <p>Professor de Sociologia e Filosofia, apresentou junto com Hilário uma tese sobre o meio ambiente em uma palestra. A contribuição deles foi apresentar a proposta inicial de um projeto, oferecendo reflexões e críticas sobre a interação e as escolhas diárias da humanidade em relação ao meio ambiente.</p>
@@ -108,19 +117,19 @@
 
             <!-- Colaborador 2 -->
             <div class="collaborator">
-                <img src="./img/juscelino.jpg" alt="Foto de Thiago Martins">
+                <img src="./img/juscelino.jpg" alt="">
                 <div class="collaborator-info">
-                    <h3>Juscelino</h3>
-                    <p>Professor de artes que contribuiu para a restauração e o desenvolvimento da arte do muro. A ideia partiu da coordenadora do Sesc, que propôs que os alunos participassem do projeto, ajudando na pintura. Assim, a cultura e a história da cidade de Jacarezinho foram trazidas para o Parque Ecológico.</p>
+                    <h3>Jucelino</h3>
+                    <p>Professor de Artes que contribuiu para a restauração e o desenvolvimento da <a href="#">pintura do muro.</a> A ideia partiu da coordenadora do Sesc, que propôs que os alunos participassem do projeto, ajudando na pintura. Assim, a cultura e a história da cidade de Jacarezinho foram trazidas para o Parque Ecológico.</p>
                 </div>
             </div>
 
             <!-- Colaborador 3 -->
             <div class="collaborator">
-                <img src="./img/hilario.png" alt="Foto de Laura Costa">
+                <img src="./img/hilario.png" alt="">
                 <div class="collaborator-info">
                     <h3>Hílario Junior</h3>
-                    <p>Professor de geografia e história, desenvolveu o projeto junto com o Vinícius, trazendo em tese na palestra o projeto do meio ambiente para que trabalhasse com a turma a preservação do Parque Ecológico, apresentando o trabalho dos profissionais do Horto Florestal, através de uma visita para base do projeto, além de promover uma ação de plantio na Feira do Conhecimento do Sesc/Senac no Parque Ecológico.</p>
+                    <p>Professor de Geografia e História, desenvolveu o projeto junto com o Vinícius, trazendo em tese na palestra o projeto do meio ambiente para que trabalhasse com a turma a preservação do Parque Ecológico, apresentando o trabalho dos profissionais do Horto Florestal, através de uma visita para base do projeto, além de promover uma ação de plantio na Feira do Conhecimento do Sesc/Senac no Parque Ecológico.</p>
                 </div>
             </div>
         </div>
